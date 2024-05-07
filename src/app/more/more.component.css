@@ -1,0 +1,74 @@
+.moreContainer {
+    height: 100vh;
+    align-content: center;
+    text-align: -webkit-center;
+    background-image: url(../more/image/jungleBackground2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.headerDiv {
+    background-color: #67aa38;
+    display: flex;
+    width: 100%; 
+    height: 20%; 
+}
+
+.activityDiv {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.parentContainer {
+    background-color: rgba(74, 194, 37, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.jjlogo {
+    display: flex;
+    height: 100%; 
+    width: 50%;
+}
+
+.backButton {
+    background-color: #b7c13f;
+    border-radius: 50%;
+    margin-right: 6%;
+    border: none; 
+    cursor: pointer;
+    width: 90px; 
+    height: 90px;
+}
+
+.imageContainer {
+    align-content: space-evenly;
+    width: 33%;
+    height: 100%;
+}
+
+.imgContainer {
+    background-color: #eae218;
+    align-content: center;
+    width: 40%;
+    height: 35%;
+}
+
+.actImage {
+    width: 80%;
+}
+
+.actBtn {
+    background-color: #b7c13f;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+    border: none;
+    display: block;
+    margin-top: 5%;
+    width: 35%;
+    height: 10%;
+}
+

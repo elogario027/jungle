@@ -1,0 +1,26 @@
+<div class="worksheetsContainer">
+    <div class="parentContainer">
+        <div class="headerDiv">
+            <div class="jjlogo">
+                <img src="assets\genImage\JJLOGO.png" all="jjLogo" routerLink="/" style="margin-left: 5%;">
+            </div>
+            <div style="height: 100%; width: 50%; align-content: space-evenly; text-align: -webkit-right;">
+                <button class="backButton">
+                    <img src="assets/genImage/icons8-arrow-left-64.png" alt="left-arrow" routerLink="">
+                </button>
+            </div>
+        </div>
+        <div class="downContainer">
+            <div class="downloadBtn">
+                <button class="downloadButton">Click to download PDF format</button>
+            </div>
+            <div class="pdfContainer">
+                <img (click)="downloadPDF('activity1')" src="assets/worksheetsImage/activity1.jpg"/>
+                <img (click)="downloadPDF('activity2')" src="assets/worksheetsImage/activity2.png">
+                <img (click)="downloadPDF('activity3')" src="assets/worksheetsImage/activity3.png">
+                <img (click)="downloadPDF('activity4')" src="assets/worksheetsImage/activity4.png">
+                <img (click)="downloadPDF('activity5')" src="assets/worksheetsImage/activity5.png">
+            </div>
+        </div>
+    </div>
+</div>

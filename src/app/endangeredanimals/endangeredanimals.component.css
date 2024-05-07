@@ -1,0 +1,73 @@
+.endangeredContainer {
+    height: 100vh;
+    align-content: center;
+    text-align: -webkit-center;
+    background-image: url(../endangeredanimals/image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.parentContainer {
+    background-color: rgba(74, 194, 37, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.headerDiv {
+    background-color: #67aa38;
+    display: flex;
+    width: 100vw; 
+    height: 20vh; 
+}
+
+.jjlogo {
+    display: flex;
+    height: 100%; 
+    width: 50%;
+}
+
+.backButton {
+    background-color: #b7c13f;
+    border-radius: 50%;
+    margin-right: 6%;
+    border: none; 
+    cursor: pointer;
+    width: 90px; 
+    height: 90px;
+}
+
+.downContainer {
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+/* .animalMainContainer {
+    display: flex;
+    height: 100%;
+} */
+
+.animalContainer {
+    margin-left: 70px;
+    height: 320px;
+    width: 300px;
+}
+
+.animalImage {
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+.animalContainer h2 {
+    width: 200px;
+    color: #ecfd87;
+}
+
+.exactImage {
+    width: 340px;
+    margin-top: -102px;
+}

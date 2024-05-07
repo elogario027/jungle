@@ -1,0 +1,46 @@
+<div class="endangeredContainer">
+    <div class="parentContainer">
+        <div class="headerDiv">
+            <div class="jjlogo">
+                <img src="assets\genImage\JJLOGO.png" all="jjLogo" routerLink="/" style="margin-left: 5%;">
+            </div>
+            <div style="height: 100%; width: 50%; align-content: space-evenly; text-align: -webkit-right;">
+                <button class="backButton">
+                    <img src="assets/genImage/icons8-arrow-left-64.png" alt="left-arrow" routerLink="/more">
+                </button>
+            </div>
+        </div>
+        <div class="downContainer">
+            <div class="animalContainer" [routerLink]="['animalinfo', 'hawksbillturtle']">
+                <div class="animalImage" style="background-color: #d8f143;">
+                    <img src="assets\genImage\endangeredspecies\hawksbillturtle.png" alt="" style="width: 290px; margin-top: -90px;">
+                </div>
+                <h2>Hawksbill Turtle</h2>
+            </div>
+            <div class="animalContainer">
+                <div class="animalImage" style="background-color: #eae218;" [routerLink]="['animalinfo', 'spotteddeer']">
+                    <img src="assets\genImage\endangeredspecies\spotteddeer.png" alt="" style="width: 290px; margin-top: -80px; margin-left: -20px;">
+                </div >
+                <h2>Philippine Spotted Deer</h2>
+            </div>
+            <div class="animalContainer" [routerLink]="['animalinfo', 'suluhornbill']">
+                <div class="animalImage" style="background-color: #e97a2a;">
+                    <img src="assets\genImage\endangeredspecies\suluhornbill.png" alt="" style="width: 290px; margin-top: -90px;">
+                </div>
+                <h2>Sulu Hornbill</h2>
+            </div>
+            <div class="animalContainer" [routerLink]="['animalinfo', 'tamaraw']">
+                <div class="animalImage" style="background-color: #dd4949;">
+                    <img src="assets\genImage\endangeredspecies\tamaraw.png" alt="" style="width: 300px; margin-top: -70px; margin-left: -30px;">
+                </div>
+                <h2>Tamaraw</h2>
+            </div>
+            <div class="animalContainer" [routerLink]="['animalinfo', 'visayanwartypig']">
+                <div class="animalImage" style="background-color: #8d689f;">
+                    <img src="assets\genImage\endangeredspecies\wartypig.png" alt="" style="width: 290px; margin-top: -90px;">
+                </div>
+                <h2>Visayan Warty Pig</h2>
+            </div>
+        </div>
+    </div>
+</div>

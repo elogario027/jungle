@@ -1,0 +1,76 @@
+.worksheetsContainer {
+    background-image: url(../worksheets/image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    align-content: center;
+    text-align: -webkit-center;
+
+}
+
+.headerDiv {
+    background-color: #67aa38;
+    display: flex;
+    width: 100%; 
+    height: 20%; 
+}
+
+.parentContainer {
+    background-color: rgba(74, 194, 37, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.jjlogo {
+    display: flex;
+    height: 100%; 
+    width: 50%;
+}
+
+.backButton {
+    background-color: #b7c13f;
+    border-radius: 50%;
+    margin-right: 6%;
+    border: none; 
+    cursor: pointer;
+    width: 90px; 
+    height: 90px;
+}
+
+.downContainer {
+    display: block;
+    width: 100%;
+    height: 80%;
+}
+
+.downloadBtn {  
+    height: 25vh;
+    align-content: center;
+    text-align: center;
+}
+
+.downloadButton {
+    background-color: #b7c13f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    box-shadow: -3px 3px 5px 0px rgba(112, 116, 64, 0.7);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.pdfContainer {
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.pdfContainer img {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 15px;
+}

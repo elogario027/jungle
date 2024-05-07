@@ -1,0 +1,74 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../home/image/homeBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbarContainer {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+}
+
+.jjlogoContainer {
+    width: 40%;
+    height: 100%;
+}
+
+.jjlogo {
+    width: 100%;
+    height: 100%;
+    background-image: url(../home/image/JJLOGO.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    width: 60%;
+    align-content: center;
+}
+
+.navbar button {
+    background-color: #b7c13f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 40px;
+    box-shadow: -3px 3px 5px 0px rgba(112, 116, 64, 0.7);
+    margin-right: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar button:hover {
+    background-color: #707440; /* Change background color on hover */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.videoContainer {
+    display: flex;
+    height: 70%;
+}
+
+.videoPlayer {
+    text-align: -webkit-right;
+}
+
+.videos {
+    height: 85%;
+    width: 75%;
+    border-radius: 40px;
+    text-align: -webkit-center;
+    background-color: #b7c13f;
+}
+
+.jjCharacter {
+    display: flex;
+    width: 50%;
+}

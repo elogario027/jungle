@@ -1,0 +1,79 @@
+.endangeredContainer {
+    height: 100vh;
+    align-content: center;
+    text-align: -webkit-center;
+    background-image: url(../animalinfo/image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.parentContainer {
+    background-color: rgba(124, 184, 106, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.headerDiv {
+    background-color: #67aa38;
+    display: flex;
+    width: 100vw; 
+    height: 20vh 
+}
+
+.jjlogo {
+    display: flex;
+    height: 100%; 
+    width: 50%;
+}
+
+.backButton {
+    background-color: #b7c13f;
+    border-radius: 50%;
+    margin-right: 6%;
+    border: none; 
+    cursor: pointer;
+    width: 90px; 
+    height: 90px;
+}
+
+.downContainer {
+    align-content: center;
+    height: 80vh;
+}
+
+.infoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 95%;
+    overflow-y: scroll;
+}
+
+.imgContainer {
+    width: 700px;
+}
+
+.detailContainer {
+    text-align: justify;
+    width: 900px;
+}
+
+.detailContainer p{
+    font-size: larger;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+}
+
+.turtleBtn {
+    background-color: #d8f143;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    height: 90px;
+    width: 60%;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 100px;
+}
